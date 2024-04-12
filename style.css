@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+}
+
+.btn-container{
+    margin:40px auto;
+    width:400px;
+    height:380px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    height:150px;
+    width:150px;
+    border:4px solid black;
+    margin:12px;
+    border-radius:20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.blue{
+    background-color: rgb(17, 124, 223);
+}
+
+.green{
+    background-color: rgb(51, 187, 82);
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.purple{
+    background-color: rgb(187, 51, 160);
+}
+
+.flash{
+    background-color: white;
+}
+
+.game-over{
+    background-color: red;
+}
+
+h3{
+    position : absolute;
+    top:20px;
+    left:30px;
+}
